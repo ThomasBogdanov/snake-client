@@ -17,6 +17,9 @@ const handleUserInput = function (key) {
     if (key.toLowerCase() === 'd') {
         connection.write("Move: right");
     }
+    if (key.toLowerCase() === 'e') {
+        connection.write("Say: Tom > Andrew in snake");
+    }
 };
 
 const setupInput = function(conn) {
